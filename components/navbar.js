@@ -8,8 +8,8 @@ function navbar() {
     </div>
     
     <div class="navItemLeft">
-        <a href="">Menu</a>
-        <a href="">Deals</a>
+        <a href="menu.html">Menu</a>
+        <a href="Deals.html">Deals</a>
     </div>
     
 
