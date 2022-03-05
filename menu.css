@@ -1,5 +1,4 @@
 body {
-    display: flex;
     font-family: sans-serif;
     margin: 0%;
     padding: 0%;
@@ -13,7 +12,7 @@ body {
     flex: 1;
     margin-left: 100px;
     position: fixed;
-    top: 0;
+    top: 100px;
 }
 
 .strips {
@@ -33,12 +32,17 @@ body {
     line-height: 25px;
     font-size: large;
 }
+.outer-ul a {
+    text-decoration: none;
+    color: gray;
+}
 
 .right-menu-section {
     flex: 3;
     width: 60%;
     margin-right: 6.2%;
     margin-left: 30%;
+    margin-top: 2%;
 }
 
 .right-menu-section hr {
@@ -83,6 +87,7 @@ body {
 
 #c_b>div{
     width: 400px;
+    padding-bottom: 25px;
     margin-bottom: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -126,21 +131,27 @@ body {
 }
 #b_b>div {
     margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 #b_m>div {
     margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 #bgr>div {
     margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 #s_h>div {
     margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 #snk>div {
     margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 #bvg>div {
     margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 .image_size>div {
@@ -174,7 +185,7 @@ body {
     flex: 1;
     margin-left: 100px;
     position: fixed;
-    top: 0;
+    top: 100px;
 }
 
 #popup_right {

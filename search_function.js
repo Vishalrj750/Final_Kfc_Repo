@@ -1,8 +1,8 @@
-let inpt = document.getElementsByClassName(`searched_item`)
+let inpt = document.getElementById(`main_searched_item`)
 let cur_str = "";
 let cur_arr = [];
 
-inpt[0].addEventListener(`keyup`, (e) => {
+inpt.addEventListener(`keyup`, (e) => {
     if(e.keyCode === 13){
         displayData(cur_arr)
         cur_str = ""
@@ -47,7 +47,7 @@ inpt[0].addEventListener(`keyup`, (e) => {
         }
     }
     
-    else if((e.keyCode == 16) || (e.keyCode == 20)){
+    else if((e.keyCode == 16) || (e.keyCode == 20) || (e.keyCode == 8)){
        
     }
 
@@ -68,16 +68,25 @@ const displayData = (data) => {
 
     let popup_left = document.getElementById(`popup_left`)
     let h1_div = document.createElement(`div`)
+    h1_div.id = "popup_result"
     let h1 = document.createElement(`h1`)
     h1.textContent = `${data.length} RESULTS`
-    h1_div.append(h1)
 
-    let btn_div = document.createElement(`div`)
     let clr_srch = document.createElement(`button`)
-    clr_srch.textContent = "Clear Search"
-    btn_div.append(clr_srch)
+    clr_srch.innerHTML = "Clear Search"
 
-    popup_left.append(h1_div, btn_div)
+    h1_div.append(h1, clr_srch)
+
+    popup_left.append(h1_div)
+
+    clr_srch.addEventListener(`click`, () => {
+        document.getElementById(`main_container`).style.display = "flex"
+        document.getElementById(`popup_container`).style.display = "none"
+        document.getElementById(`searched_food`).textContent = ""
+        document.getElementById(`main_searched_item`).value = ""
+        document.getElementById(`popup_result`).textContent = ""
+    })
+    
 
     let searched_food = document.getElementById(`searched_food`)
     searched_food.style.display = "grid"
