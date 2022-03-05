@@ -964,7 +964,7 @@ beverages.forEach((item) => {
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
     })
 
-    div.append(img, h3, p1, div, add_to_cart)
+    div.append(img, h3, p1, div_2, add_to_cart)
     bvrgs.append(div)
     
 
