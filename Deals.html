@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dealsStyle.css">
+ 
+    <title>Document</title>
+</head>
+<body>
+    <div id="container1">
+        
+        <h2 class="deals">DEALS & OFFERS</h2>
+    </div>
+    <div id="lines">
+        <img src="./vik_images/lines.png" alt="">
+    </div>
+    <div id="container2">
+        <h2>NATIONAL OFFERS</h2>
+        <button onclick = 'signUpPage()'>Sign in to see exclusive offers & deals</button>
+    </div>
+    <div id="v1">
+        <header class="header">
+            <h2>OFFERS & DEALS</h2>
+            <button style="background-image: url(./vik_images/pop.svg);" onclick="v1(false)"></button>
+        </header>
+        <section>
+            <h3>ADD 2 PC HOT N CRISPY CHICKEN @ JUST RS 99 ON MIN CART VALUE OF RS 499 OR MORE. APPLICABLE ON 2ND & 3RD ORDER FOR SIGNED IN USER.</h3>
+            <p>Valid to 31/12/30</p>
+            <p>Add 2 Pc Hot n Crispy Chicken @ just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd & 3rd order for signed in user.</p>
+        </section>
+        <footer>
+            <button>Redeem</button>
+        </footer>
+     </div>
+    <div id="main">
+        <div class="main-div1" style="background-image: url(./vik_images/div1.svg);">
+            
+            <h3 id="a">SELECT A KFC TO SEE LOCAL OFFERS</h3>
+            <button role="button" class="button1" onclick="orderPage()">Find a KFC</button>
+        </div>
+        <div class="main-div2" style="background-color: #e4002b;">
+            <h3>SIGN IN TO SEE MORE EXCLUSIVE OFFERS & DEALS</h3>
+            <button class="button2" onclick="signUpPage()">Login</button>
+            <!-- <img src="./div.jpg" alt=""> -->
+        </div>
+        <div class="main-div3"  >
+            <img src="./vik_images/div3.jpg" alt="">
+            <div class ='bg'>
+            <h2>Add 2 Pc Hot n Crispy...</h2>
+            
+            <h5>Add 2 Pc Hot n Crispy Chicken @ just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd & 3rd order for signed in user.</h5>
+            
+                
+                <div class="buttons">
+                    <button class="views" onclick="v1(true)">View Details</button>
+                    <button class = "redeems">Redeem</button>
+                </div>
+           
+        </div>
+        </div>
+        <div class="main-div4"> 
+            <img src="./vik_images/div4.jpg" alt="">
+            <div class="bg">
+                <h2>Upto Rs 100 off on min...</h2>
+                <h5>Upto Rs 100 off on min cart value of Rs 599 or more . Applicable on 4th order onwards for signed in user.</h5>
+                <div class="button3">
+                    <button class="view">View Details</button>
+                    <button class = "redeem">Redeem</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-div5" >
+            <img src="./vik_images/div5.jpg" alt="">
+            <div class="bg">
+                <h2>1 Pc free Chicken...</h2>
+                <h5> 1 Pc free Chicken Zinger on a cart value of 399 or above on first order. Only for registered users.</h5>
+                <div class="button3">
+                    <button class="view">View Details</button>
+                    <button class = "redeem">Redeem</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="main-div6" >
+            <img src="./vik_images/div6.jpg" alt="">
+            <div class="bg">
+                <h2>1 Pc free Veg Zinger...</h2>
+                <h5>1 Pc free Veg Zinger on a cart value of 399 or above on first order. Only for registered users</h5>
+                <div class="button3">
+                    <button class="view">View Details</button>
+                    <button class = "redeem">Redeem</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function signUpPage(){
+        window.location = "./sign.html"
+    }
+    function orderPage(){
+        window.location = "./startOrder.html"
+    }
+    // function v1(val){
+    //     var show = document.getElementById('v1')
+    //     if(val===true){
+    //         show.style.display = "flex"
+    //     }
+    //     // else{
+    //     //     show.style.display = "none"
+    //     // }
+    // }
+</script>
+</html>
