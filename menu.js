@@ -700,6 +700,10 @@ let beverages = [
     },
 ]
 
+if(localStorage.getItem(`add_to_cart`) == null){
+    localStorage.setItem(`add_to_cart`, JSON.stringify([]))
+}
+
 let chicken_bkt = document.getElementById(`c_b`)
         
 chicken_bucket.forEach((item) => {
@@ -715,12 +719,23 @@ chicken_bucket.forEach((item) => {
     let p1 = document.createElement(`p`)
     p1.innerHTML = `<b>${item.price}</b>`
 
+    let div_2 = document.createElement(`div`)
+    div_2.className = "description"
     let p2 = document.createElement(`p`)
     p2.textContent = item.description
     p2.style.fontSize = "15px"
     p2.style.color = "gray"
+    div_2.append(p2)
 
-    div.append(img, h3, p1, p2)
+    let add_to_cart = document.createElement(`button`)
+    add_to_cart.textContent = "Add to Cart"
+    add_to_cart.addEventListener(`click`, function() {
+        let data = JSON.parse(localStorage.getItem(`add_to_cart`))
+        data.push(item)
+        localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+    })
+
+    div.append(img, h3, p1, div_2, add_to_cart)
     chicken_bkt.append(div)
     
     
@@ -743,12 +758,23 @@ biryani_bucket.forEach((item) => {
     let p1 = document.createElement(`p`)
     p1.innerHTML = `<b>${item.price}</b>`
 
+    let div_2 = document.createElement(`div`)
+    div_2.className = "description"
     let p2 = document.createElement(`p`)
     p2.textContent = item.description
     p2.style.fontSize = "15px"
     p2.style.color = "gray"
+    div_2.append(p2)
 
-    div.append(img, h3, p1, p2)
+    let add_to_cart = document.createElement(`button`)
+    add_to_cart.textContent = "Add to Cart"
+    add_to_cart.addEventListener(`click`, function() {
+        let data = JSON.parse(localStorage.getItem(`add_to_cart`))
+        data.push(item)
+        localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+    })
+
+    div.append(img, h3, p1, div_2, add_to_cart)
     biryani_bkt.append(div)
     
 
@@ -770,12 +796,23 @@ box_meals.forEach((item) => {
     let p1 = document.createElement(`p`)
     p1.innerHTML = `<b>${item.price}</b>`
 
+    let div_2 = document.createElement(`div`)
+    div_2.className = "description"
     let p2 = document.createElement(`p`)
     p2.textContent = item.description
     p2.style.fontSize = "15px"
     p2.style.color = "gray"
+    div_2.append(p2)
 
-    div.append(img, h3, p1, p2)
+    let add_to_cart = document.createElement(`button`)
+    add_to_cart.textContent = "Add to Cart"
+    add_to_cart.addEventListener(`click`, function() {
+        let data = JSON.parse(localStorage.getItem(`add_to_cart`))
+        data.push(item)
+        localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+    })
+
+    div.append(img, h3, p1, div_2, add_to_cart)
     box_mls.append(div)
     
 
@@ -797,12 +834,23 @@ burgers.forEach((item) => {
     let p1 = document.createElement(`p`)
     p1.innerHTML = `<b>${item.price}</b>`
 
+    let div_2 = document.createElement(`div`)
+    div_2.className = "description"
     let p2 = document.createElement(`p`)
     p2.textContent = item.description
     p2.style.fontSize = "15px"
     p2.style.color = "gray"
+    div_2.append(p2)
 
-    div.append(img, h3, p1, p2)
+    let add_to_cart = document.createElement(`button`)
+    add_to_cart.textContent = "Add to Cart"
+    add_to_cart.addEventListener(`click`, function() {
+        let data = JSON.parse(localStorage.getItem(`add_to_cart`))
+        data.push(item)
+        localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+    })
+
+    div.append(img, h3, p1, div_2, add_to_cart)
     brgrs.append(div)
     
 
@@ -824,12 +872,23 @@ stay_home_specials.forEach((item) => {
     let p1 = document.createElement(`p`)
     p1.innerHTML = `<b>${item.price}</b>`
 
+    let div_2 = document.createElement(`div`)
+    div_2.className = "description"
     let p2 = document.createElement(`p`)
     p2.textContent = item.description
     p2.style.fontSize = "15px"
     p2.style.color = "gray"
+    div_2.append(p2)
 
-    div.append(img, h3, p1, p2)
+    let add_to_cart = document.createElement(`button`)
+    add_to_cart.textContent = "Add to Cart"
+    add_to_cart.addEventListener(`click`, function() {
+        let data = JSON.parse(localStorage.getItem(`add_to_cart`))
+        data.push(item)
+        localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+    })
+
+    div.append(img, h3, p1, div_2, add_to_cart)
     stay_home.append(div)
     
 
@@ -851,12 +910,23 @@ snacks.forEach((item) => {
     let p1 = document.createElement(`p`)
     p1.innerHTML = `<b>${item.price}</b>`
 
+    let div_2 = document.createElement(`div`)
+    div_2.className = "description"
     let p2 = document.createElement(`p`)
     p2.textContent = item.description
     p2.style.fontSize = "15px"
     p2.style.color = "gray"
+    div_2.append(p2)
 
-    div.append(img, h3, p1, p2)
+    let add_to_cart = document.createElement(`button`)
+    add_to_cart.textContent = "Add to Cart"
+    add_to_cart.addEventListener(`click`, function() {
+        let data = JSON.parse(localStorage.getItem(`add_to_cart`))
+        data.push(item)
+        localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+    })
+
+    div.append(img, h3, p1, div_2, add_to_cart)
     snks.append(div)
     
 
@@ -878,12 +948,23 @@ beverages.forEach((item) => {
     let p1 = document.createElement(`p`)
     p1.innerHTML = `<b>${item.price}</b>`
 
+    let div_2 = document.createElement(`div`)
+    div_2.className = "description"
     let p2 = document.createElement(`p`)
     p2.textContent = item.description
     p2.style.fontSize = "15px"
     p2.style.color = "gray"
+    div_2.append(p2)
 
-    div.append(img, h3, p1, p2)
+    let add_to_cart = document.createElement(`button`)
+    add_to_cart.textContent = "Add to Cart"
+    add_to_cart.addEventListener(`click`, function() {
+        let data = JSON.parse(localStorage.getItem(`add_to_cart`))
+        data.push(item)
+        localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+    })
+
+    div.append(img, h3, p1, div, add_to_cart)
     bvrgs.append(div)
     
 
