@@ -17,7 +17,7 @@ function navbar() {
         
         <div class="accountIcon">
             <img src="https://i.ibb.co/zR1JpWH/Account-Icon.jpg" />
-            <span>Sign In</span>
+            <a href="sign.html">Sign In</a>
         </div>
         
         <div class="bucketIconDiv">
@@ -35,7 +35,7 @@ function navbar() {
         <div class="text">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</div>
 
         <div class="btn">
-            <button class="navNextBtn">Start Order</button>
+            <a href="startOrder.html"><button class="navNextBtn">Start Order</button></a>
         </div>
     </div>`
 

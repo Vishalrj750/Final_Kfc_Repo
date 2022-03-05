@@ -49,44 +49,44 @@
         </div>
 
         <div class="menuCardContainer">
-            <a href="" class="menuCard">
+            <a href="menu.html" class="menuCard">
                 <img src="https://i.ibb.co/sb0wL9V/CAT3131.jpg" />
                 <section class="menuText">Chicken Buckets</section>
             </a>
 
-            <a href="" class="menuCard">
+            <a href="menu.html" class="menuCard">
                 <img src="https://i.ibb.co/dgT9dqX/CAT3342.jpg" />
                 <section class="menuText">Biryani Buckets</section>
             </a>
 
-            <a href="" class="menuCard">
+            <a href="menu.html" class="menuCard">
                 <img src="https://i.ibb.co/XyTgcxQ/CAT3246.jpg" />
                 <section class="menuText">Box Meals</section>
             </a>
 
-            <a href="" class="menuCard">
+            <a href="menu.html" class="menuCard">
                 <img src="https://i.ibb.co/HDB4m1K/CAT3132.jpg" />
                 <section class="menuText">Burgers</section>
             </a>
         </div>
 
         <div class="menuCardContainer">
-            <a href="" class="menuCard">
+            <a href="menu.html" class="menuCard">
                 <img src="https://i.ibb.co/9YNgB66/CAT3311.jpg" />
                 <section class="menuText">Stay Home Specials</section>
             </a>
 
-            <a href="" class="menuCard">
+            <a href="menu.html" class="menuCard">
                 <img src="https://i.ibb.co/F0T5Hjz/CAT3134.jpg" />
                 <section class="menuText">Snacks</section>
             </a>
 
-            <a href="" class="menuCard">
+            <a href="menu.html" class="menuCard">
                 <img src="https://i.ibb.co/xCvWVYR/CAT3135.jpg" />
                 <section class="menuText">Beverages</section>
             </a>
 
-            <a href="" class="menuCardLast">
+            <a href="menu.html" class="menuCardLast">
                 <img src="https://i.ibb.co/NS49WrL/finger-lickin-fc21c805.jpg" />
                 <section class="menuTextLast">View All Menu <strong>&#x2192;</strong></section>
             </a>
@@ -150,7 +150,7 @@
                         <div class="cardButton">
 
                             <a href="javascript:myBlurFunction(1);"><div class="offerViewDetails">View Details</div></a>
-                            <button class="redeemButton">Redeem</button>
+                            <a href="startOrder.html"><button class="redeemButton">Redeem</button></a>
                         </div>
                     </div>
                     <!-- Card ends -->
@@ -168,7 +168,7 @@
                         </div>
                         <div class="cardButton">
                             <a href="javascript:myBlurFunction(1);"><div class="offerViewDetails">View Details</div></a>
-                            <button class="redeemButton">Redeem</button>
+                            <a href="startOrder.html"><button class="redeemButton">Redeem</button></a>
                         </div>
                     </div>
                     <!-- Card ends -->
@@ -186,7 +186,7 @@
                         </div>
                         <div class="cardButton">
                             <a href="javascript:myBlurFunction(1);"><div class="offerViewDetails">View Details</div></a>
-                            <button class="redeemButton">Redeem</button>
+                            <a href="startOrder.html"><button class="redeemButton">Redeem</button></a>
                         </div>
                     </div>
                     <!-- Card ends -->
@@ -204,7 +204,7 @@
                         </div>
                         <div class="cardButton">
                             <a href="javascript:myBlurFunction(1);"><div class="offerViewDetails">View Details</div></a>
-                            <button class="redeemButton">Redeem</button>
+                            <a href="startOrder.html"><button class="redeemButton">Redeem</button></a>
                         </div>
                     </div>
                     <!-- Card ends -->
@@ -226,7 +226,7 @@
 
                 <ul>
                     <li>KFC Food</li>
-                    <li>Menu</li>
+                    <li><a href="menu.html">Menu</a></li>
                     <li>Order Lookup</li>
                     <li>Gift Card</li>
                 </ul>
@@ -293,13 +293,12 @@
 <script type="module" src="./index.js"></script>
 <script>
     function myBlurFunction(state) {
-        var containerElement = document.querySelectorAll('.footer');
+        // var containerElement = document.querySelectorAll('.footer');
         var overlayEle = document.getElementById('overlay');
     
         if (state) {
-            
             overlayEle.style.display = 'block';
-            containerElement.setAttribute('class', 'blur');
+            // containerElement.setAttribute('class', 'blur');
         } else {
             overlayEle.style.display = 'none';
             containerElement.setAttribute('class', null);
@@ -309,7 +308,9 @@
     setTimeout(gif, 2000);
     
     function gif(){
+        
         document.getElementById("loader").style.display = "none";
         document.querySelector(".hole").style.display = "block";
     }
+
 </script>
