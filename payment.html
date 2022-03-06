@@ -6,9 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         #payment {
-            width: 100vw;
-            margin-left: 30%;
+            width: 50vw;
+            margin-left: 22%;
             margin-top: 20vh;
+            /* border: 1px solid black; */
+            text-align: center;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            padding-top: 20px;
+        }
+
+        #payment h3 {
+            font-size: 30px;
         }
 
         #card_number {
@@ -20,7 +30,7 @@
         }
 
         #submit {
-            margin-left: 12%;
+            margin-left: 8%;
             margin-top: 5%;
             padding: 1%;
             border-radius: 20px;
@@ -28,12 +38,36 @@
             background-color: red;
             font-size: 20px;
             font-weight: 100;
+            cursor: pointer;
+        }
+
+        .homepage {
+            width: 17%;
+            height: 40px;
+            border: 1px solid black;
+            text-align: center;
+            border-radius: 20px;
+            box-sizing: border-box;
+            padding-top: 8px;
+            background-color: rgb(41, 37, 37);
+        }
+
+        .homepage a {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 700;
+            color: whitesmoke;
+            font-family: sans-serif;
+        }
+
+        .homepage {
+            margin-right: 20px;
         }
     </style>
     <title>Payment Page</title>
 </head>
 <body>
-    <h2><a href="index.html">Go back to Home Page</a></h2>
+    <div class="homepage"><a href="index.html">	&#8592; Go back to Home Page</a></div>
     <div id="payment">
         <h3>Enter Your Card Details</h3>
         <form action="submit">
