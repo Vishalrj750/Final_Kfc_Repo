@@ -428,6 +428,10 @@ a img {
     justify-content: space-around;
 }
 
+.offers a {
+    text-decoration: none;
+}
+
 .offers .viewAll {
     text-align: center;
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -717,6 +721,10 @@ a img {
 .popBtnDiv {
     margin-top: 22%;
     margin-left: 15%;
+}
+
+.popBtnDiv a {
+    text-decoration: none;
 }
 
 .popBtn {
