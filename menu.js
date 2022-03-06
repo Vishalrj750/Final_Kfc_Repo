@@ -732,6 +732,7 @@ chicken_bucket.forEach((item) => {
     add_to_cart.addEventListener(`click`, function() {
         let data = JSON.parse(localStorage.getItem(`add_to_cart`))
         data.push(item)
+        alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
     })
 
@@ -771,6 +772,7 @@ biryani_bucket.forEach((item) => {
     add_to_cart.addEventListener(`click`, function() {
         let data = JSON.parse(localStorage.getItem(`add_to_cart`))
         data.push(item)
+        alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
     })
 
@@ -809,6 +811,7 @@ box_meals.forEach((item) => {
     add_to_cart.addEventListener(`click`, function() {
         let data = JSON.parse(localStorage.getItem(`add_to_cart`))
         data.push(item)
+        alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
     })
 
@@ -847,6 +850,7 @@ burgers.forEach((item) => {
     add_to_cart.addEventListener(`click`, function() {
         let data = JSON.parse(localStorage.getItem(`add_to_cart`))
         data.push(item)
+        alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
     })
 
@@ -885,6 +889,7 @@ stay_home_specials.forEach((item) => {
     add_to_cart.addEventListener(`click`, function() {
         let data = JSON.parse(localStorage.getItem(`add_to_cart`))
         data.push(item)
+        alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
     })
 
@@ -923,6 +928,7 @@ snacks.forEach((item) => {
     add_to_cart.addEventListener(`click`, function() {
         let data = JSON.parse(localStorage.getItem(`add_to_cart`))
         data.push(item)
+        alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
     })
 
@@ -961,7 +967,9 @@ beverages.forEach((item) => {
     add_to_cart.addEventListener(`click`, function() {
         let data = JSON.parse(localStorage.getItem(`add_to_cart`))
         data.push(item)
+        alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+        
     })
 
     div.append(img, h3, p1, div_2, add_to_cart)
