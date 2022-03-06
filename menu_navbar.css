@@ -65,7 +65,12 @@ a img {
     padding-left: 70px;
     font-size: 13px;
 }
-
+.accountIcon a {
+    text-decoration: none;
+    margin-left: 3%;
+    font-weight: bolder;
+    color: black;
+}
 .accountIcon span {
     margin-left: 20px;
     font-family: 'Fira Sans Condensed', sans-serif;
