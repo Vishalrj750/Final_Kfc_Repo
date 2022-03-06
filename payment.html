@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #payment {
+            width: 100vw;
+            margin-left: 30%;
+            margin-top: 20vh;
+        }
+
+        #card_number {
+            width: 25.4%;
+        }
+
+        #name {
+            width: 29%;
+        }
+
+        #submit {
+            margin-left: 12%;
+            margin-top: 5%;
+            padding: 1%;
+            border-radius: 20px;
+            color: white;
+            background-color: red;
+            font-size: 20px;
+            font-weight: 100;
+        }
+    </style>
+    <title>Payment Page</title>
+</head>
+<body>
+    <h2><a href="index.html">Go back to Home Page</a></h2>
+    <div id="payment">
+        <h3>Enter Your Card Details</h3>
+        <form action="submit">
+            <label for="card_number">Card Number</label>
+            <input type="text" id="card_number">
+            <br>
+            <br>
+            <label for="expiry_data">Expiry Date</label>
+            <input type="date">
+            <label for="cvv">CVV</label>
+            <input type="password">
+            <br>
+            <br>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <br>
+            <br>
+        </form>
+        <button id="submit" onclick="orderPlaced()">Proceed to Pay</button>
+    </div>
+
+    <script>
+        
+        const orderPlaced = () => {
+            setTimeout(() => {
+                alert(`Your Order has been placed. Thankyou`)
+            }, 3000)
+        }
+
+
+    </script>
+</body>
+</html>
