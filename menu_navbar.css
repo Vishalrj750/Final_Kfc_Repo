@@ -126,6 +126,7 @@ a img {
     margin-top: 10%;
     padding-top: 5%;
     margin-bottom: 0%;
+    position: sticky;
 }
 
 .kfcLogo {
