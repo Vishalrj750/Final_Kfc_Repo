@@ -116,7 +116,7 @@
         <h3>LET'S SIGN IN OR CREATE ACCOUNT WITH YOUR PHONE</h3>
         <h3> NUMBER!</h3>
        </div>
-        <input type="number" id="input" placeholder="Phone Number*">
+        <input type="number" id="inputNumber" placeholder="Phone Number*">
         <p>By "logging in to KFC",you agree to our <button id="privacy" onclick="privacy()">Privacy Policy</button> and <button id="condition" onclick="conditions()">Terms & Conditions.</button></p>
         <button onclick="goToName()" id="code"> Send Me a Code</button>
         <div id="or">
@@ -128,7 +128,12 @@
     </div>
 </body>
 <script>
+    
+    
     function goToName(){
+        let cat = document.getElementById("inputNumber").value;
+        localStorage.setItem("Number", `${cat}`)
+        console.log(cat)
         window.location = "otp.html"
     }
     function privacy(){
