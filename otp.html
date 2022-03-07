@@ -12,6 +12,9 @@
             align-items: center;
             text-align: center;
             margin-left: 450px;
+            border: 1px solid #cecece;
+            border-radius: 20px;
+            margin-top: 10%;
         
         }
              #sign{
@@ -22,6 +25,25 @@
             padding-top: 60px;
             margin-bottom:40px ;
         }
+
+        #container h3 {
+            
+        }
+
+        .submit {
+            width: 200px;
+            height: 50px;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            border: 1px solid black;
+        }
+
+        input {
+            width: 200px;
+            height: 50px;
+            border-radius: 20px;
+        }
     </style>
     <title>Document</title>
 </head>
@@ -30,12 +52,14 @@
         <div id="sign">Sign in / Sign up</div>
         <div><img src="./vik_images/KFC_logo.svg" alt=""></div>
         <h3>WE JUST TEXTED YOU</h3>
-        <P>please enter the verification code we just send to your number</P>
-        <p>Diffrent Number</p>
-        <input type="number">
+        <P>Please enter the verification code we just send to your number</P>
+        <p>Different Number?</p>
+        <input type="text" placeholder="Enter Your Code Here">
         <p>Your code will expire in </p>
-        <p>Resend the code</p>
-        <button onclick="goToName()">Submit</button>
+        <a href="#">Resend the code</a>
+        <br>
+        <br>
+        <button class="submit" onclick="goToName()">Submit</button>
     </div>
 </body>
       <script>
