@@ -120,6 +120,14 @@ body {
     background-color: red;
     padding: 10px;
     border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+.right-menu-section button:hover {
+    font-size: 20px;
+    border: 1px solid rgba(32,33,36,.6509803921568628);
+    background-color: rgba(32,33,36,.6509803921568628);
 }
 
 #b_b, #b_m, #bgr, #s_h, #snk, #bvg {
