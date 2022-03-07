@@ -16,7 +16,7 @@ let chicken_bucket = [
         name: "Friendship Bucket",
         category: "Non veg",
         serving: "3",
-        price: "₹699.00",
+        price: "699.00",
         description: "Save 23% on 3pc Hot & Crispy chicken, 3 Hot Wings, 3 Chicken Strips & a Large Popcorn [Serves 3]"
     },
     {
@@ -25,7 +25,7 @@ let chicken_bucket = [
         name: "Bucket for Two",
         category: "Non veg",
         serving: "2",
-        price: "₹599.00",
+        price: "599.00",
         description: "Flat Rs. 70 off on 2pc Hot & Crispy Chicken, 2 pc Smoky Red Chicken & Large Popcor [Serves 2]"
     },
     {
@@ -34,7 +34,7 @@ let chicken_bucket = [
         name: "Ultimate Savings Bucket",
         category: "Non veg",
         serving: "2-3",
-        price: "₹699.00",
+        price: "699.00",
         description: "Save 30% on 4pc Hot & crispy chicken, 6 Hot Wings, 4 chicken strips , 3 Dips & a Pepsi PET [Serves 2-3]"
     },
     {
@@ -43,7 +43,7 @@ let chicken_bucket = [
         name: "Big 12",
         category: "Non veg",
         serving: "2-3",
-        price: "₹729.00",
+        price: "729.00",
         description: "Save 22% on this combo of 6pc Hot & Crispy Chicken, 6 Hot Wings & 2 creamy dips [Serves 2-3]"
     },
     {
@@ -52,7 +52,7 @@ let chicken_bucket = [
         name: "Mingles Bucket Meal",
         category: "Non veg",
         serving: "2",
-        price: "₹459.00",
+        price: "459.00",
         description: "Save Rs.55 on this combo of 4 Wings, 2 Chicken Strips, Reg Popcorn, Medium Fries & Pepsi PET [Serves 2]"
     },
     {
@@ -61,7 +61,7 @@ let chicken_bucket = [
         name: "Big 8",
         category: "Non veg",
         serving: "2-3",
-        price: "₹619.00",
+        price: "619.00",
         description: "Save 30% on this bucket of 4pc Hot & Crispy chicken & 4pc Smoky Red chicken [Serves 2-3]"
     },
     {
@@ -70,7 +70,7 @@ let chicken_bucket = [
         name: "5pc Smoky Red Chicken",
         category: "Non veg",
         serving: "2",
-        price: "₹429.00",
+        price: "429.00",
         description: "Save Rs. 121 & get 5pc Smoky red grilled chicken [Serves 2]"
     },
     {
@@ -79,7 +79,7 @@ let chicken_bucket = [
         name: "8 pc Hot & Crispy Chicken",
         category: "Non veg",
         serving: "3-4",
-        price: "₹699.00",
+        price: "699.00",
         description: "Save 26% & get 8pc signature Hot & crispy chicken [Serves 3-4]"
     },
     {
@@ -88,7 +88,7 @@ let chicken_bucket = [
         name: "6 Pc Hot & Crispy",
         category: "Non veg",
         serving: "2-3",
-        price: "₹699.00",
+        price: "699.00",
         description: "Save Rs. 111 & get 6pc signature Hot & crispy chicken [Serves 2-3]"
     },
     {
@@ -97,7 +97,7 @@ let chicken_bucket = [
         name: "KFC Favorites",
         category: "Non veg",
         serving: "2",
-        price: "₹399.00",
+        price: "399.00",
         description: "Save 27% on this combo Chicken Zinger, Large Popcorn & 4pc Hot Wings [Serves 2]"
     },
     {
@@ -106,7 +106,7 @@ let chicken_bucket = [
         name: "Chick & Share",
         category: "Non veg",
         serving: "2-3",
-        price: "₹449.00",
+        price: "449.00",
         description: "Save upto Rs. 101 & Pick any-5pc Hot & Crispy Chicken OR 10 Chicken Strips OR 2 Large Popcorn [Serves 2-3]"
     },
     {
@@ -115,7 +115,7 @@ let chicken_bucket = [
         name: "5pc Leg Piece Bucket & 2 Dips",
         category: "Non veg",
         serving: "2",
-        price: "₹449.00",
+        price: "449.00",
         description: "Save 25% on this favorite combo of 5 Leg Pieces & 2 Dips [Serves 2]"
     },
     {
@@ -124,7 +124,7 @@ let chicken_bucket = [
         name: "5pc Leg Piece Bucket Meal",
         category: "Non veg",
         serving: "2",
-        price: "₹599.00",
+        price: "599.00",
         description: "Save Rs. 160 on 5 chicken Leg Pieces, 2 dips, 1 Medium Fries & a chilled Pepsi PET [Serves 2]"
     },
     {
@@ -133,7 +133,7 @@ let chicken_bucket = [
         name: "5pc Leg Piece Bucket Meal",
         category: "Non veg",
         serving: "3-4",
-        price: "₹799.00",
+        price: "799.00",
         description: "Save 33% on 10 chicken Leg Pieces & 4 delicious dips [Serves 3-4]"
     },
     {
@@ -142,7 +142,7 @@ let chicken_bucket = [
         name: "10 strips & 2 Dips Bucket",
         category: "Non veg",
         serving: "2",
-        price: "₹449.00",
+        price: "449.00",
         description: "Flat Rs. 70 off on 2pc Hot & Crispy Chicken, 2 pc Smoky Red Chicken & Large Popcor [Serves 2]"
     }
 ]
@@ -154,7 +154,7 @@ let biryani_bucket = [
         name: "Classic Chicken Biryani Bucket",
         category: "Non veg",
         serving: "1",
-        price: "₹219.00",
+        price: "219.00",
         description: "New Hyderabadi style Biryani rice served with 1 pc Hot & Crispy Chicken & a Spicy Gravy [serves 1]"
     },
     {
@@ -163,7 +163,7 @@ let biryani_bucket = [
         name: "Popcorn Chicken Biryani Bucket",
         category: "Non veg",
         serving: "1",
-        price: "₹219.00",
+        price: "219.00",
         description: "New Hyderabadi style Biryani rice served with signature Popcorn & a Spicy Gravy [serves 1]"
     },
     {
@@ -172,7 +172,7 @@ let biryani_bucket = [
         name: "Smoky Grilled Biryani Bucket",
         category: "Non veg",
         serving: "1",
-        price: "₹219.00",
+        price: "219.00",
         description: "New Hyderabadi style Biryani rice served with 1 pc Smoky Red Chicken & a Spicy Gravy [serves 1]"
     },
     {
@@ -181,7 +181,7 @@ let biryani_bucket = [
         name: "Veg Biryani Bucket",
         category: "Non veg",
         serving: "1",
-        price: "₹169.00",
+        price: "169.00",
         description: "New Hyderabadi style Biryani rice served with a crispy Veg Patty & a Spicy Gravy [serves 1]"
     },
     {
@@ -190,7 +190,7 @@ let biryani_bucket = [
         name: "Classic Chicken Biryani Bucket (Large",
         category: "Non veg",
         serving: "2",
-        price: "₹449.00",
+        price: "449.00",
         description: "Large portions of our new Hyderabadi style Biryani rice served with 2 pc Hot & Crispy Chicken & 2 Spicy Gravies"
     },
     {
@@ -199,7 +199,7 @@ let biryani_bucket = [
         name: "Popcorn Chicken Biryani Bucket (Large",
         category: "Non veg",
         serving: "2",
-        price: "₹449.00",
+        price: "449.00",
         description: "Large portions of our new Hyderabadi style Biryani rice served with double portions of Popcorn & 2 Spicy Gravies"
     },
     {
@@ -208,7 +208,7 @@ let biryani_bucket = [
         name: "Smoky Grilled Biryani Bucket (Large",
         category: "Non veg",
         serving: "2",
-        price: "₹449.00",
+        price: "449.00",
         description: "Large portions of our new Hyderabadi style Biryani rice served with 2 pc Smoky Red & 2 Spicy Gravies [serves"
     },
     {
@@ -217,7 +217,7 @@ let biryani_bucket = [
         name: "Popcorn Biryani Combo",
         category: "Non veg",
         serving: "2-3",
-        price: "₹649.00",
+        price: "649.00",
         description: "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy"
     },
     {
@@ -226,7 +226,7 @@ let biryani_bucket = [
         name: "Classic Biryani Combo",
         category: "Non veg",
         serving: "2-3",
-        price: "₹699.00",
+        price: "699.00",
         description: "Large portions of our new Hyderabadi style Biryani rice, served with 2 pc Hot & Crispy Chicken, 2 Spicy Gravies, 4pc"
     },
     {
@@ -235,7 +235,7 @@ let biryani_bucket = [
         name: "Smoky Grilled Biryani Combo",
         category: "Non veg",
         serving: "2-3",
-        price: "₹699.00",
+        price: "699.00",
         description: "Large portions of our new Hyderabadi style Biryani rice, served with 2 pc Smoky Red Chicken, 2 Spicy Gravies,"
     },
 ]
@@ -247,7 +247,7 @@ let box_meals = [
         name:"All Chicken Box",
         category:"Non veg",
         serving:"",
-        price:"₹179.00",
+        price:"179.00",
         description:"A Box with your favorites! Get 1 pc Hot & Crispy, 2 Hot Wings & 1 Chicken Strip at a deal price"
     },
     {
@@ -256,7 +256,7 @@ let box_meals = [
         name:"Classic Zinger Box",
         category:"Non veg",
         serving:"",
-        price:"₹299.00",
+        price:"299.00",
         description: "A deal for the Tandoori lovers : Get 1 Tandoori Zinger, 2 Hot Wings, 1 Veg Patty & Pepsi"
     },
     {
@@ -265,7 +265,7 @@ let box_meals = [
         name:"Zinger Tandoori Box",
         category: "Non veg",
         serving: "",
-        price: "₹299.00",
+        price: "299.00",
         description:"A deal for the Tandoori lovers : Get 1 Tandoori Zinger, 2 Hot Wings, 1 Veg Patty & Pepsi",
     },
     {
@@ -274,7 +274,7 @@ let box_meals = [
         name:"Popcorn Biryani Box",
         category:"Non veg",
         serving:"",
-        price:"₹329.00",
+        price:"329.00",
         description :"Biryani lovers unite : Get 1 Popcorn Biryani Bucket with gravy, 2 Hot Wings & Pepsi",
     },
     {
@@ -283,7 +283,7 @@ let box_meals = [
         name:"Veg Zinger Box",
         category:"Non veg",
         serving:"",
-        price:"₹299.00",
+        price:"299.00",
         description : "A deal for the Veg Zinger lovers : Get 1 Veg Zinger, 2 Veg Patties & a Pepsi"
     },
 ]
@@ -295,7 +295,7 @@ let burgers = [
         name:"Veg Biryani Box",
         category:"Non veg",
         serving:"",
-        price:"₹279.00",
+        price:"279.00",
         description : "Biryani lovers unite : Get 1 Veg Biryani Bucket with gravy, 1 Veg Patty & a Pepsi"
     },
     {
@@ -304,7 +304,7 @@ let burgers = [
         name:"2 Chicken Krisper Burgers",
         category:"Non veg",
         serving:"",
-        price:"₹219.00",
+        price:"219.00",
         description : "2 delicious chicken value burgers - at only 109 each!"
     },
     {
@@ -313,7 +313,7 @@ let burgers = [
         name:"2 Veg Krisper Burgers",
         category:"Veg",
         serving:"",
-        price:"₹138.00",
+        price:"138.00",
         description : "2 delicious veg value burgers - at only 69 each!"
     },
     {
@@ -322,7 +322,7 @@ let burgers = [
         name:"Chicken & Krispers Combo",
         category:"Non veg",
         serving:"",
-        price:"₹499.00",
+        price:"499.00",
         description : "Save Rs. 50 on this combo of 2 chicken value burgers, 2 pc Hot & Crispy, 2 dips & a chilled Pepsi PET!"
     },
     {
@@ -331,7 +331,7 @@ let burgers = [
         name:"Veg-Non-Veg Krispers Combo",
         category:"Non veg",
         serving:"",
-        price:"₹349.00",
+        price:"349.00",
         description : "Pack of 4 burgers - 2 veg & 2 chicken value burgers at a deal price !"
     },
     {
@@ -340,7 +340,7 @@ let burgers = [
         name:"Tandoori Zinger Burger",
         category:"Non veg",
         serving:"",
-        price:"₹180.00",
+        price:"180.00",
         description : "Chicken zinger with a delicious tandoori sauce"
     },
     {
@@ -349,7 +349,7 @@ let burgers = [
         name:"Mixed Zinger Doubles",
         category:"Non veg",
         serving:"",
-        price:"₹309.00",
+        price:"309.00",
         description : "Best-seller combo of classic chicken zinger & tandoori zinger"
     },
     {
@@ -358,7 +358,7 @@ let burgers = [
         name:"Classic Zinger Burger",
         category:"Non veg",
         serving:"",
-        price:"₹170.00",
+        price:"170.00",
         description : "Signature chicken burger made with a crunchy chicken fillet, veggies & a delicious mayo sauce"
     },
     {
@@ -367,7 +367,7 @@ let burgers = [
         name:"Buddy Meal",
         category:"Non veg",
         serving:"",
-        price:"₹460.00",
+        price:"460.00",
         description : "Share 2 Classic Chicken Zingers & a Medium Popcorn in this delightful combo for 2"
     },
     {
@@ -376,7 +376,7 @@ let burgers = [
         name:"Veg Zinger Burger",
         category:"Veg",
         serving:"",
-        price:"₹160.00",
+        price:"160.00",
         description : "Signature veg burger with crispy patties, veggies & a tangy sauce"
     },
     {
@@ -385,7 +385,7 @@ let burgers = [
         name:"2 Veg Krispers Meal",
         category:"Veg",
         serving:"",
-        price:"₹249.00",
+        price:"249.00",
         description : "2 veg value burgers, crispy medium fries & 2 delicious dips at a deal price!"
     },
 ]
@@ -397,7 +397,7 @@ let stay_home_specials = [
         name: "Popcorn Biryani Combo",
         category: "Non veg",
         serving: "2-3",
-        price: "₹649.00",
+        price: "649.00",
         description: "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy"
     },
     {
@@ -406,7 +406,7 @@ let stay_home_specials = [
         name: "Classic Biryani Combo",
         category: "Non veg",
         serving: "2-3",
-        price: "₹699.00",
+        price: "699.00",
         description: "Large portions of our new Hyderabadi style Biryani rice, served with 2 pc Hot & Crispy Chicken, 2 Spicy Gravies, 4pc"
     },
     {
@@ -415,7 +415,7 @@ let stay_home_specials = [
         name: "Smoky Grilled Biryani Combo",
         category: "Non veg",
         serving: "2-3",
-        price: "₹699.00",
+        price: "699.00",
         description: "Large portions of our new Hyderabadi style Biryani rice, served with 2 pc Smoky Red Chicken, 2 Spicy Gravies,"
     },
     {
@@ -424,7 +424,7 @@ let stay_home_specials = [
         name: "Super Snacker Combo",
         category: "Non veg",
         serving: "1-2",
-        price: "₹429.00",
+        price: "429.00",
         description: "Best of snacks with a Medium Popcorn, 4 strips, 1 dip & a chilled Pepsi Black [serves 1-2]"
     },
     {
@@ -433,7 +433,7 @@ let stay_home_specials = [
         name: "Chick’n Wings Combo",
         category: "Non veg",
         serving: "1-2",
-        price: "₹429.00",
+        price: "429.00",
         description: "Enjoy 2pc Hot & Crispy Chicken, 4 wings , 2 dips & a chilled Pepsi Black [serves 1-2]"
     },
     {
@@ -442,7 +442,7 @@ let stay_home_specials = [
         name: "Stay Home Bucket",
         category: "Non veg",
         serving: "3",
-        price: "₹749.00",
+        price: "749.00",
         description: "Save 21% & enjoy 4pc Hot & Crispy Chicken, 4 Hot Wings, 6 chicken strips & 2 delicious dips [serves 3]"
     },
     {
@@ -451,7 +451,7 @@ let stay_home_specials = [
         name: "Family Feast",
         category: "Non veg",
         serving: "3",
-        price: "₹789.00",
+        price: "789.00",
         description: "Family Deal of 3 chicken zingers, a medium popcorn, medium fries & a chilled Pepsi PET [serves 3]"
     },
     {
@@ -460,7 +460,7 @@ let stay_home_specials = [
         name: "Classic Zinger Meal",
         category: "Non veg",
         serving: "1",
-        price: "₹319.00",
+        price: "319.00",
         description: "Favorite combo of Classic Zinger Burger, Medium Fries & a chilled Pepsi Black [serves 1]"
     },
     {
@@ -469,7 +469,7 @@ let stay_home_specials = [
         name: "Chick'n Strips Solo Combo",
         category: "Non veg",
         serving: "1",
-        price: "₹399.00",
+        price: "399.00",
         description: "Go solo with 1 pc Hot & Crispy, 3 strips, Medium Fries & a chilled Pepsi Black [serves 1]"
     },
     {
@@ -478,7 +478,7 @@ let stay_home_specials = [
         name: "Chick'n Fries Solo Combo",
         category: "Non veg",
         serving: "1",
-        price: "₹399.00",
+        price: "399.00",
         description: "Try this classic pairing of 2pc Hot & Crispy, Medium Fries, 2 Dips & a chilled Pepsi Black [serves 1]"
     },
 ]
@@ -489,7 +489,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "Choco Mud Pie",
         category: "Veg",
-        price: "₹119.00",
+        price: "119.00",
         description: "Chocolate lovers unite! Say hello to our delicous, new, creamy chocolate & cake dessert- a must try!"
     },
     {
@@ -497,7 +497,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "Coffee Mousse Cake",
         category: "Veg",
-        price: "₹119.00",
+        price: "119.00",
         description: "Coffee, chocolate, cake…what's not to love? Enjoy our delicious, new dessert for those coffee-licious temptations!"
     },
     {
@@ -505,7 +505,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "Chicken & Fries Bucket",
         category: "Non veg",
-        price: "₹199.00",
+        price: "199.00",
         description: "Save 37% on this favorite combo of 2pc Hot & Crispy chicken with Medium Fries"
     },
     {
@@ -513,7 +513,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "Mingles Bucket",
         category: "Non veg",
-        price: "₹309.00",
+        price: "309.00",
         description: "Save Rs. 50 on this ultimate mingle of 4 Hot Wings, 2 chicken strips & a reg Popcorn [serves 1-2]"
     },
     {
@@ -521,7 +521,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "4pc Hot & Crispy Chicken",
         category: "Non veg",
-        price: "₹399.00",
+        price: "399.00",
         description: "4 pcs of signature Hot & crispy chicken at a deal price"
     },
     {
@@ -529,7 +529,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "Large Popcorn",
         category: "Non veg",
-        price: "₹229.00",
+        price: "229.00",
         description: "Signature bite-sized boneless chicken, with special spices"
     },
     {
@@ -537,7 +537,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "Medium Popcorn",
         category: "Non veg",
-        price: "₹150.00",
+        price: "150.00",
         description: "Signature bite-sized boneless chicken, with special spices"
     },
     {
@@ -545,7 +545,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "Regular Popcorn",
         category: "Non veg",
-        price: "₹109.00",
+        price: "109.00",
         description: "Signature bite-sized boneless chicken, with special spices"
     },
     {
@@ -553,7 +553,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "Large Fries",
         category: "Veg",
-        price: "₹115.00",
+        price: "115.00",
         description: "Jazz up your meal with crispy large fries!"
     },
     {
@@ -561,7 +561,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "Medium Fries",
         category: "Veg",
-        price: "₹95.00",
+        price: "95.00",
         description: "Jazz up your meal with crispy large fries!"
     },
     {
@@ -569,7 +569,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "2 pc Hot & Crispy Chicken",
         category: "Non veg",
-        price: "₹219.00",
+        price: "219.00",
         description: "Signature Hot & crispy chicken"
     },
     {
@@ -577,7 +577,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "2 pc Smoky Red Chicken",
         category: "Non veg",
-        price: "₹219.00",
+        price: "219.00",
         description: "Spicy, red, grilled chicken"
     },
     {
@@ -585,7 +585,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "6pc Boneless Chicken strips",
         category: "Non veg",
-        price: "₹229.00",
+        price: "229.00",
         description: "Tender, juicy, signature boneless chicken strips"
     },
     {
@@ -593,7 +593,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "4pc Hot Chicken Wings",
         category: "Non veg",
-        price: "₹158.00",
+        price: "158.00",
         description: "Seasoned, signature KFC chicken wings"
     },
     {
@@ -601,7 +601,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "1 pc Hot & Crispy Chicken",
         category: "Non veg",
-        price: "₹110.00",
+        price: "110.00",
         description: "Signature Hot & crispy chicken"
     },
     {
@@ -609,7 +609,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "1 Pc Smoky Red Chicken",
         category: "Non veg",
-        price: "₹110.00",
+        price: "110.00",
         description: "Spicy, red, grilled chicken"
     },
     {
@@ -617,7 +617,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "3pc Boneless Chicken strips",
         category: "Non veg",
-        price: "₹150.00",
+        price: "150.00",
         description: "Tender, juicy, signature boneless chicken strips"
     },
     {
@@ -625,7 +625,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "2 pc Veg Patty",
         category: "Veg",
-        price: "₹140.00",
+        price: "140.00",
         description: "Delicious, crispy, veg add-on!"
     },
     {
@@ -633,7 +633,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "Tandoori Masala Dip",
         category: "Veg",
-        price: "₹30.00",
+        price: "30.00",
         description: "Special tandoori flavored dip, to add a twist to your meal!"
     },
     {
@@ -641,7 +641,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "Pack of 4 Dips",
         category: "Veg",
-        price: "₹99.00",
+        price: "99.00",
         description: "Adding dips is always a good idea!"
     },
     {
@@ -649,7 +649,7 @@ let snacks = [
         image: "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/no-image.jpg",
         name: "Pack of 2 Dips",
         category: "Veg",
-        price: "₹59.00",
+        price: "59.00",
         description: "Adding dips is always a good idea!"
     },
 ]
@@ -661,7 +661,7 @@ let beverages = [
         name:"Pepsi PET",
         category:"Veg",
         serving:"",
-        price:"₹60.00",
+        price:"60.00",
         description : "Pepsi Pet Bottle"
     },
     {
@@ -670,7 +670,7 @@ let beverages = [
         name:"Pepsi Can 330 ml",
         category:"Veg",
         serving:"",
-        price:"₹60.00",
+        price:"60.00",
         description : "Pepsi Can 330 ml"
     },
     {
@@ -679,7 +679,7 @@ let beverages = [
         name:"7UP Can 330 ml",
         category:"Veg",
         serving:"",
-        price:"₹60.00",
+        price:"60.00",
         description : "7UP Can 330 ml"
     },
     {
@@ -688,7 +688,7 @@ let beverages = [
         name:"Pepsi Black Can 330 ml",
         category:"Non veg",
         serving:"",
-        price:"₹60.00",
+        price:"60.00",
         description : "Pepsi Black Can 330 ml"
     },
     {
@@ -697,7 +697,7 @@ let beverages = [
         name:"Mirinda Can 330 ml",
         category:"Veg",
         serving:"",
-        price:"₹60.00",
+        price:"60.00",
         description : "Mirinda Can 330 ml"
     },
     {
@@ -706,7 +706,7 @@ let beverages = [
         name:"Red Bull Energy Drink",
         category:"Veg",
         serving:"",
-        price:"₹160.00",
+        price:"160.00",
         description : "Red Bull Energy Drink"
     },
 ]
@@ -728,7 +728,7 @@ chicken_bucket.forEach((item) => {
     h3.style.fontSize = "18px"
 
     let p1 = document.createElement(`p`)
-    p1.innerHTML = `<b>${item.price}</b>`
+    p1.innerHTML = "₹ " + `<b>${item.price}</b>`
 
     let div_2 = document.createElement(`div`)
     div_2.className = "description"
@@ -744,8 +744,10 @@ chicken_bucket.forEach((item) => {
         let data = JSON.parse(localStorage.getItem(`add_to_cart`))
         data.push(item)
         alert(`Added ${item.name} in cart`)
-        localStorage.setItem(`add_to_cart`, JSON.stringify(data))
-        updateCart()
+        localStorage.setItem(`add_to_cart`, JSON.stringify(data));
+
+        updateCart();
+        updatePrice();
     })
 
     div.append(img, h3, p1, div_2, add_to_cart)
@@ -771,7 +773,7 @@ biryani_bucket.forEach((item) => {
     h3.style.fontSize = "18px"
 
     let p1 = document.createElement(`p`)
-    p1.innerHTML = `<b>${item.price}</b>`
+    p1.innerHTML = "₹ " + `<b>${item.price}</b>`
 
     let div_2 = document.createElement(`div`)
     div_2.className = "description"
@@ -813,7 +815,7 @@ box_meals.forEach((item) => {
     h3.style.fontSize = "18px"
 
     let p1 = document.createElement(`p`)
-    p1.innerHTML = `<b>${item.price}</b>`
+    p1.innerHTML = "₹ " + `<b>${item.price}</b>`
 
     let div_2 = document.createElement(`div`)
     div_2.className = "description"
@@ -855,7 +857,7 @@ burgers.forEach((item) => {
     h3.style.fontSize = "18px"
 
     let p1 = document.createElement(`p`)
-    p1.innerHTML = `<b>${item.price}</b>`
+    p1.innerHTML = "₹ " + `<b>${item.price}</b>`
 
     let div_2 = document.createElement(`div`)
     div_2.className = "description"
@@ -897,7 +899,7 @@ stay_home_specials.forEach((item) => {
     h3.style.fontSize = "18px"
 
     let p1 = document.createElement(`p`)
-    p1.innerHTML = `<b>${item.price}</b>`
+    p1.innerHTML = "₹ " + `<b>${item.price}</b>`
 
     let div_2 = document.createElement(`div`)
     div_2.className = "description"
@@ -939,7 +941,7 @@ snacks.forEach((item) => {
     h3.style.fontSize = "18px"
 
     let p1 = document.createElement(`p`)
-    p1.innerHTML = `<b>${item.price}</b>`
+    p1.innerHTML = "₹ " + `<b>${item.price}</b>`
 
     let div_2 = document.createElement(`div`)
     div_2.className = "description"
@@ -981,7 +983,7 @@ beverages.forEach((item) => {
     h3.style.fontSize = "18px"
 
     let p1 = document.createElement(`p`)
-    p1.innerHTML = `<b>${item.price}</b>`
+    p1.innerHTML = "₹ " + `<b>${item.price}</b>`
 
     let div_2 = document.createElement(`div`)
     div_2.className = "description"
@@ -1012,6 +1014,17 @@ function updateCart(){
     let test = JSON.parse(localStorage.getItem(`add_to_cart`));
     let show = document.getElementById("cartIconCount");
     show.textContent = test.length;
+}
+
+function updatePrice(){
+    let test = JSON.parse(localStorage.getItem(`add_to_cart`));
+    let price = document.getElementById("priceUpdate");
+    let sum = 0;
+    test.forEach((item) => {
+        sum += Number(`${item.price}`);
+    })
+    price.textContent = `₹ ${sum}`;
+    console.log(sum);
 }
 
 // console.log(show.textContent)
