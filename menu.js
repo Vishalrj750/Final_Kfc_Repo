@@ -745,6 +745,7 @@ chicken_bucket.forEach((item) => {
         data.push(item)
         alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+        updateCart()
     })
 
     div.append(img, h3, p1, div_2, add_to_cart)
@@ -753,6 +754,8 @@ chicken_bucket.forEach((item) => {
     
 
 })
+
+
 
 
 let biryani_bkt = document.getElementById(`b_b`)
@@ -785,6 +788,7 @@ biryani_bucket.forEach((item) => {
         data.push(item)
         alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+        updateCart()
     })
 
     div.append(img, h3, p1, div_2, add_to_cart)
@@ -792,6 +796,8 @@ biryani_bucket.forEach((item) => {
     
 
 })
+
+
 
 
 let box_mls = document.getElementById(`b_m`)
@@ -824,6 +830,7 @@ box_meals.forEach((item) => {
         data.push(item)
         alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+        updateCart()
     })
 
     div.append(img, h3, p1, div_2, add_to_cart)
@@ -831,6 +838,8 @@ box_meals.forEach((item) => {
     
 
 })
+
+
 
 
 let brgrs = document.getElementById(`bgr`)
@@ -863,6 +872,7 @@ burgers.forEach((item) => {
         data.push(item)
         alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+        updateCart()
     })
 
     div.append(img, h3, p1, div_2, add_to_cart)
@@ -870,6 +880,8 @@ burgers.forEach((item) => {
     
 
 })
+
+
 
 
 let stay_home = document.getElementById(`s_h`)
@@ -902,6 +914,7 @@ stay_home_specials.forEach((item) => {
         data.push(item)
         alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+        updateCart()
     })
 
     div.append(img, h3, p1, div_2, add_to_cart)
@@ -909,6 +922,8 @@ stay_home_specials.forEach((item) => {
     
 
 })
+
+
 
 
 let snks = document.getElementById(`snk`)
@@ -941,6 +956,7 @@ snacks.forEach((item) => {
         data.push(item)
         alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
+        updateCart()
     })
 
     div.append(img, h3, p1, div_2, add_to_cart)
@@ -948,6 +964,8 @@ snacks.forEach((item) => {
     
 
 })
+
+
 
 
 let bvrgs = document.getElementById(`bvg`)
@@ -980,14 +998,22 @@ beverages.forEach((item) => {
         data.push(item)
         alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
-        let test = JSON.parse(localStorage.getItem(`add_to_cart`));
-        let show = document.getElementById("cartIconCount");
-        show.innerText = test.length;
-        console.log(test.length);
+        updateCart()
     })
 
     div.append(img, h3, p1, div_2, add_to_cart)
     bvrgs.append(div)
     
-
 })
+
+
+
+function updateCart(){
+    let test = JSON.parse(localStorage.getItem(`add_to_cart`));
+    let show = document.getElementById("cartIconCount");
+    show.textContent = test.length;
+}
+
+// console.log(show.textContent)
+    // show.innerText = data.length;
+    // console.log(test.length);
