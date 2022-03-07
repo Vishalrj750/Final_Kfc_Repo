@@ -24,7 +24,7 @@ function navbar() {
             <span>₹0</span>
             <div class="bucketIcon">
                 <img src="https://i.ibb.co/ygnYs9m/bucket-cart-icon.jpg"/>
-                <div class="cartIconCount">0</div>
+                <div id="cartIconCount">0</div>
             </div>
         </div>
 
