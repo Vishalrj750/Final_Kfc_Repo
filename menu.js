@@ -1,3 +1,14 @@
+import navbar from "./components/navbar.js";
+
+let header = document.getElementById("header");
+
+header.innerHTML = navbar();
+let select = document.querySelector(".bucketIconDiv");
+select.addEventListener("click", move);
+function move() {
+    window.location = "cart.html";
+}
+
 let chicken_bucket = [
     {
         id: "1",
@@ -969,7 +980,10 @@ beverages.forEach((item) => {
         data.push(item)
         alert(`Added ${item.name} in cart`)
         localStorage.setItem(`add_to_cart`, JSON.stringify(data))
-        
+        let test = JSON.parse(localStorage.getItem(`add_to_cart`));
+        let show = document.getElementById("cartIconCount");
+        show.innerText = test.length;
+        console.log(test.length);
     })
 
     div.append(img, h3, p1, div_2, add_to_cart)

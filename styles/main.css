@@ -142,7 +142,7 @@ a img {
     margin-top: 8%;
 }
 
-.cartIconCount {
+#cartIconCount {
     position: absolute;
     top: 0;
     right: 20%;
